@@ -48,49 +48,35 @@ cd ai-agent-lab-showcase
 ```bash
 cp .env.example .env
 ```
-```text
 Edit .env with your values:
-```
 ```code
 OPENAI_API_KEY=your-azure-openai-key
 MODEL_DEPLOYMENT_NAME="gpt-4.1"
 ```
 ### 3. Install Dependencies
-```text
 Ensure you're using Python 3.10+ and install required packages:
-```
 ```bash
 pip install -r requirements.txt
 ```
-
 ### 4. Run the Agent
-```text
 Launch the agent from the command line:
-```
 ```bash
 python agent/agent.py
 ```
-```text
 You’ll see a prompt like:
-```
 ```bash
 Using agent: data-agent
 Enter a prompt (or type 'quit' to exit):
 ```
 ### Sample Prompt
-```text
 Try entering:
-``` 
 ```code
 What's the category with the highest cost?
 ```
-```text
 Expected output:
-```
 ```code
 Transportation: 2301.00
 ```
-
 ## 📌 Key Learnings
 - Diagnosed and resolved invalid_engine_error by aligning model deployment names
 - Structured agent logic for modularity and reusability
