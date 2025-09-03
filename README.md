@@ -57,30 +57,39 @@ MODEL_DEPLOYMENT_NAME="gpt-4.1"
 ```
 ### 3. Install Dependencies
 ```plaintext
-Ensure you're using Python 3.10+ and install required packages:```
+Ensure you're using Python 3.10+ and install required packages:
+```
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 ### 4. Run the Agent
 ```plaintext
-Launch the agent from the command line:```
+Launch the agent from the command line:
+```
 ```bash
-python agent/agent.py```
+python agent/agent.py
+```
 ```plaintext
-You’ll see a prompt like:```
+You’ll see a prompt like:
+```
 ```bash
 Using agent: data-agent
 Enter a prompt (or type 'quit' to exit):
 ```
 ### Sample Prompt
 ```plaintext
-Try entering:``` 
+Try entering:
+``` 
 ```code
-What's the category with the highest cost?```
+What's the category with the highest cost?
+```
 ```plaintext
-Expected output: ```
+Expected output:
+```
 ```code
-Transportation: 2301.00```
+Transportation: 2301.00
+```
 
 ## 📌 Key Learnings
 - Diagnosed and resolved invalid_engine_error by aligning model deployment names
